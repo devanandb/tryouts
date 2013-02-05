@@ -1,16 +1,17 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
-	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>TimezoneIt | Awesomeness</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css" media="all">
 	<script type="text/javascript" src="assets/js/jquery-1.9.0.min.js"></script>
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/smoothscroll.js"></script>
 	<script type="text/javascript" src="assets/js/custom.js"></script>
 </head>
-<body>
-	<div class="navbar navbar-inverse navbar-fixed-top">
-		<div class="navbar-inner">
+<body data-spy="scroll" data-target=".navbar">
+	<div id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+		<div id="home" class="navbar-inner">
 			<div class="container-fluid">
 				<a class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
 					<span class="icon-bar"></span>
@@ -21,7 +22,7 @@
 				<div class="nav-collapse collapse" style="height: 0px;">
 					<p class="navbar-text pull-right"><a id="blackbg"><img src="assets/img/black-c.png" alt=""></a>&nbsp;&nbsp;<a id="whitebg"><img src="assets/img/white-c.png" alt=""></a></p>
 					<ul class="nav">
-						<li class="active"><a href="#">Home</a></li>
+						<li class="active"><a href="#home">Home</a></li>
 						<li><a href="#how">How?</a></li>
 						<li><a href="#why">Why?</a></li>
 						<li><a href="#who">Who?</a></li>
@@ -31,15 +32,18 @@
 		</div>
 	</div>
    
-	<div id="home" class="container black">
+	<div class="container black">
 		<img class="hidden-phone" src="assets/img/s3tgitsw.png" alt="">
 		<img class="hidden-phone" src="assets/img/iphtgitsw.png" alt="">
 		<div style="display:inline-block; text-align:center;" class="span6 store-img-links">
 			<div style="height:180px" class="hidden-phone">&nbsp;</div>
-			<img src="assets/img/playstore.png" alt=""><br><br>
+			<img src="assets/img/pstore.png" alt=""><br><br>
 			<img src="assets/img/istore.png" alt="">
 		</div>
-		<div class="intro-text">
+		<div class="intro-text hidden-phone">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus arcu, suscipit a aliquet vel, bibendum vitae massa. Vivamus ac ipsum erat, vel egestas massa. Etiam ut arcu nec nisl porta scelerisque justo vehicula at et neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Proin varius tortor eget justo vehicula imperdiet.
+		</div>
+		<div class="intro-text-phone visible-phone">
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus arcu, suscipit a aliquet vel, bibendum vitae massa. Vivamus ac ipsum erat, vel egestas massa. Etiam ut arcu nec nisl porta scelerisque justo vehicula at et neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Proin varius tortor eget justo vehicula imperdiet.
 		</div>
 		<div class="quote-blocks">
@@ -126,7 +130,7 @@
 				<h1>Who <small>are jobless enough to build this?</small></h1>
 			</div>
 			<div class="list-point clear">
-				<img src="http://placehold.it/200" alt="Uday M Shankar" class="img-desc pull-left">
+				<img src="http://placehold.it/200" alt="Uday M Shankar" class="img-desc pull-left hidden-phone">
 				<div class="text-desc">
 					<h3>Uday M Shankar <small>Some tag line</small></h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.Integer posuere erat a ante.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante</p>
@@ -137,7 +141,7 @@
 				<div class="clear">&nbsp;</div>
 			</div>
 			<div class="list-point clear">
-				<img src="http://placehold.it/200" alt="Devanand" class="img-desc pull-left">
+				<img src="http://placehold.it/200" alt="Devanand" class="img-desc pull-left hidden-phone">
 				<div class="text-desc">
 					<h3>Devanand<small> Some tag line</small></h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.Integer posuere erat a ante.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante</p>
@@ -148,7 +152,7 @@
 				<div class="clear">&nbsp;</div>
 			</div>
 			<div class="list-point clear">
-				<img src="http://placehold.it/200" alt="Udai Arora" class="img-desc pull-left">
+				<img src="http://placehold.it/200" alt="Udai Arora" class="img-desc pull-left hidden-phone">
 				<div class="text-desc">
 					<h3>Udai Arora<small> Some tag line</small></h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.Integer posuere erat a ante.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante</p>

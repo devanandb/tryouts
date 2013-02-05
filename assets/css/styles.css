@@ -7640,11 +7640,19 @@ body .container {
 
 }
 body .container .intro-text {
+  margin-top: 20px;
   font-size: 38px;
   text-align: center;
   line-height: 50px;
   padding: 10px;
   color: #555555;
+}
+body .container .intro-text-phone {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  font-size: 26px;
+  line-height: 40px;
 }
 body .container .quote-blocks {
   margin-top: 60px;
@@ -7656,19 +7664,25 @@ body .container .quote-blocks blockquote {
 body .container .quote-blocks blockquote p {
   font-size: 20px;
   font-family: "roboto-r";
-  line-height: 40px;
+  line-height: 30px;
 }
 body .container .quote-blocks blockquote span {
   font-family: "roboto-r";
+  margin-top: 10px;
 }
 body .container .page-header {
   border-bottom: 0;
   margin-bottom: 20px;
 }
+body .container .page-header h1 small {
+  /* display: block; */
+
+  line-height: 40px;
+}
 body .container .page-break {
   border-top: 1px solid #dddddd;
   clear: both;
-  margin-top: 30px;
+  padding-top: 60px;
 }
 body .container .list-point {
   margin: 15px 5px;

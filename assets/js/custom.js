@@ -5,4 +5,5 @@ $(document).ready(function(){
 	$("#whitebg").click(function(){
 		$("body").removeClass("black");
 	});
+	$('#navbar').scrollspy();
 });
