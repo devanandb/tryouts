@@ -6,4 +6,7 @@ $(document).ready(function(){
 		$("body").removeClass("black");
 	});
 	$('#navbar').scrollspy();
+	$('[data-spy="scroll"]').each(function () {
+	  var $spy = $(this).scrollspy('refresh')
+	});
 });

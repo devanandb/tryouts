@@ -7630,11 +7630,22 @@ a.badge:hover {
   background: none;
   background-color: #a41717;
 }
+.navbar-inverse .nav .active > a,
+.navbar-inverse .nav .active > a:hover,
+.navbar-inverse .nav .active > a:focus {
+  background-color: #790b0b;
+}
+.navbar-inverse .brand,
+.navbar-inverse .nav > li > a {
+  color: #dddddd;
+  text-shadow: none;
+}
 body {
   font-family: "roboto-l";
 }
 body .container {
-  margin-top: 50px;
+  /* margin-top:50px; */
+
   /* border-left: 1px solid #dddddd;
 		border-right: 1px solid #dddddd; */
 
