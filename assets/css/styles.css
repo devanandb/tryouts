@@ -7643,13 +7643,6 @@ a.badge:hover {
 body {
   font-family: "roboto-l";
 }
-body .container {
-  /* margin-top:50px; */
-
-  /* border-left: 1px solid #dddddd;
-		border-right: 1px solid #dddddd; */
-
-}
 body .container .intro-text {
   margin-top: 20px;
   font-size: 38px;
@@ -7686,8 +7679,6 @@ body .container .page-header {
   margin-bottom: 20px;
 }
 body .container .page-header h1 small {
-  /* display: block; */
-
   line-height: 40px;
 }
 body .container .page-break {
@@ -7709,25 +7700,17 @@ body .container .list-point .text-desc p {
   font-size: 18px;
   line-height: 30px;
 }
-body.black {
-  background-color: #000000;
+body .container .footer {
+  padding: 10px;
+  border-top: 1px solid #dddddd;
 }
-body.black .intro-text {
-  color: #cccccc;
+body .container .footer .copyright {
+  padding-top: 5px;
 }
-body.black blockquote {
-  color: #dddddd;
-  border-left: 5px solid #333333;
+body .container .footer .social-icons {
+  margin-bottom: 10px;
 }
-body.black blockquote.pull-right {
-  border-right: 5px solid #333333;
-  border-left: 0;
-}
-.clear {
-  clear: both;
-}
-.navbar .brand {
-  font-size: 24px;
-  font-family: "roboto-r";
-  color: #cccccc;
+body .container .footer .social-icon {
+  padding-right: 10px;
+  cursor: pointer;
 }
